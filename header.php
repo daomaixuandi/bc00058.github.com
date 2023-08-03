@@ -2,8 +2,8 @@
    <div class="flex">
       <a href="products.php" class="logo"><b>TopToys</b> Shop</a>
       <nav class="navbar">
-         <a href="products.php">HOME</a>
-         <a href="introduction.php">INTRODUCTION</a>
+
+      <a href="introduction.php">INTRODUCTION</a>
          <a href="products.php">PRODUCTS</a>
          <a href="aboutus.php">ABOUT US</a>
          <a href="update_profile.php">PROFILE</a>
