@@ -18,7 +18,6 @@
 <li><a href="#">About us</a></li>
 <li><a href="products.php">Products</a></li>
 <li><a href="https://www.freeprivacypolicy.com/live/4dc834c0-7c89-4f92-ac33-34ffae4d518c">Privacy Policy</a></li>
-<li><a href="#">Introdution</a></li>
 </ul>
 </div>
 
