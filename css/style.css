@@ -289,7 +289,7 @@ section{
 }
 
 .products .box-container .box .price{
-   font-size: 2.5rem;
+   font-size: 2rem;
    color:var(--black);
 }
 
@@ -704,12 +704,13 @@ section{
     .searchbar {
       display: flex; 
       align-items: center; 
-      margin-bottom: 1px;
+      margin-bottom: 2px;
       margin-top: auto;
       height: 40px;
+      width: 30rem;
       background-color: #ffffff;
       border: 2px solid #000000;
-      border-radius: 20px;
+      border-radius: 30px;
       padding: 5px;
       float: right;
     }
@@ -725,13 +726,7 @@ section{
       transition: width 0.4s linear;
     }
     
-    .searchbar:hover > .search_input {
-      padding: 0 10px;
-      width: 200px;
-      caret-color: rgb(255, 255, 255);
-      transition: width 0.4s linear;
-    }
-    
+
     .searchbar:hover > .search_icon {
       background: white;
       size: 2rem;
