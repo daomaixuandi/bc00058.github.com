@@ -43,9 +43,10 @@ if(isset($_POST['add_to_cart'])){
 <div class="container h-100">
   <div class="d-flex justify-content-center h-100">
     <div class="searchbar">
-      <input class="search_input" type="text" name="" placeholder="Search by ID..." 
-             onfocus="onFocusInput(this)" onblur="onBlurInput(this)">
-      <a href="products.php" class="search_icon"><i class="fas fa-search"></i></a>
+      <form action="product_details.php" method="get">
+         <input class="search_input" type="text" name="product_id" placeholder="Search by ID...">
+         <button type="submit" class="search_icon"><i class="fas fa-search"></i></button>
+      </form>
     </div>
   </div>
 </div>

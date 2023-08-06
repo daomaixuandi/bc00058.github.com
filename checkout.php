@@ -121,33 +121,29 @@ if(isset($_POST['order_btn'])){
             <span>payment method</span>
             <select name="method">
                <option value="cash on delivery" selected>COD</option>
-               <option value="credit card">Credit card</option>
             </select>
          </div>
          <div class="inputBox">
             <span>address line 1</span>
-            <input type="text" placeholder="e.g. flat no." name="flat" required>
+            <input type="text" placeholder=" 666a" name="apartment number" required>
          </div>
          <div class="inputBox">
             <span>address line 2</span>
-            <input type="text" placeholder="e.g. street name" name="street" required>
+            <input type="text" placeholder="street name" name="street" required>
          </div>
          <div class="inputBox">
             <span>city</span>
-            <input type="text" placeholder="e.g. mumbai" name="city" required>
+            <input type="text" placeholder="Cao Lanh" name="city" required>
          </div>
          <div class="inputBox">
             <span>state</span>
-            <input type="text" placeholder="e.g. maharashtra" name="state" required>
+            <input type="text" placeholder="district" name="district" required>
          </div>
          <div class="inputBox">
             <span>country</span>
-            <input type="text" placeholder="e.g. india" name="country" required>
+            <input type="text" placeholder="Việt Nam" name="country" required>
          </div>
-         <div class="inputBox">
-            <span>pin code</span>
-            <input type="text" placeholder="e.g. 123456" name="pin_code" required>
-         </div>
+
       </div>
       <input type="submit" value="order now" name="order_btn" class="btn">
    </form>
@@ -160,4 +156,6 @@ if(isset($_POST['order_btn'])){
 <script src="js/script.js"></script>
    
 </body>
+<?php include 'footer.php'; ?>
+
 </html>

@@ -28,21 +28,13 @@
         <?php include 'header.php'; ?>
 
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">About Us</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-            </div>
-        </header>
+        <div class="slider">
+  <img src="https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcwfHx3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" style="width: 152rem; height: 40rem;">
+  <div class="gradient-overlay"></div>
+  <div class="welcome-text">About the
+    <h3 style="font-size: 80px;"> ATN Shop</h3>
+  </div>
+</div>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
         <section class="page-section" id="contact">
@@ -371,3 +363,33 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
+<style>
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+.search_input::placeholder {
+  color: black;
+}
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(600, 255, 255, 0), rgba(255, 255, 255, 1));
+  z-index: 0;
+}
+
+</style>

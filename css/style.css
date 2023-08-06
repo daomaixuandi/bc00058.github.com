@@ -728,7 +728,7 @@ section{
     
 
     .searchbar:hover > .search_icon {
-      background: white;
+      background: rgb(255, 255, 255);
       size: 2rem;
       color: #000000;
     }
@@ -736,9 +736,10 @@ section{
     .search_icon {
       height: 15px;
       width: 30px;
-      margin-left: 5px;
+      margin-left: 90px;
       color: rgb(0, 0, 0);
       text-decoration: none;
+      border-radius: 2px;
     }
     
 

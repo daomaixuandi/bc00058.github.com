@@ -122,7 +122,7 @@ if(isset($_POST['submit'])){
 	      <input type="password" name="password" placeholder="Enter password" class="box" required>
 	      <input type="submit" name="submit" value="Login" class="btn">
          <br>
-	      <p>Don't have an account? <a href="register.php">Regiser now</a></p>
+	      <p>Don't have an account? <a href="register.php">Register now</a></p>
 	   </form>
 
 	</div>
